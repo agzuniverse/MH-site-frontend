@@ -14,25 +14,6 @@
     padding-left: 20px;
 }
 
-.landing{
-    height: 100vh;
-    width: 100vw;
-    background:radial-gradient(transparent,black), url('../assets/image.jpg') no-repeat center center fixed;
-    background-size: cover;
-    opacity: 1.0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.landing_content{
-    text-align: center;
-    line-height: 30px;
-    font-size: 25px;
-    color: lightgrey;
-}
-
-
 /*Making things responsive*/
 
 .mobile{
@@ -46,10 +27,5 @@
 
     .mobile{
         display:block;
-    }
-
-    .landing_content{
-        line-height: 27px;
-        font-size: 21px;
     }
 }
