@@ -37,14 +37,27 @@
             <li><a href="#">Student's corner</a></li>
             <li><a href="#">Mess</a></li>
             <li><a href="#">Contacts</a></li>
+            <li class='active'><a href="login.html">Login/Signup</a></li>
         </ul>
     </div>
 
 
     <div class='container'>
         <div class="card card-panel" style="margin-top:15px; background-color:rgba(0, 0, 0, 0.6)">
-            <h3 style="text-align:center;color:rgba(255,255,255,0.87); ">Login</h3>
+            <h3 style="text-align:center;color:rgba(255,255,255,0.87); ">Sign Up</h3>
             <form action='#' method='post' class='col s12'>
+                <div class='row'>
+                    <div class='input-field col s8 offset-s2'>
+                        <input id='firstname' type='text'>
+                        <label for='firstname'>First name</label>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='input-field col s8 offset-s2'>
+                        <input id='secondname' type='text'>
+                        <label for='secondname'>Second name</label>
+                    </div>
+                </div>
                 <div class='row'>
                     <div class='input-field col s8 offset-s2'>
                         <input id='email' type='email' class='validate'>
@@ -53,15 +66,18 @@
                 </div>
                 <div class='row'>
                     <div class='input-field col s8 offset-s2'>
-                        <input id='pass' type='password'>
+                        <input id='pass' type='password' class='validate'>
                         <label for='pass'>Password</label>
                     </div>
                 </div>
                 <div class='row'>
-                    <button type='submit' name='action' value='login' class="col s8 offset-s2 btn waves-effect waves-light blue darken-2" >Log In</button>
+                    <div class='input-field col s8 offset-s2'>
+                        <input id='passconfirm' type='password' class='validate'>
+                        <label for='passconfirm'>Confirm password</label>
+                    </div>
                 </div>
                 <div class='row'>
-                    <a class="col s8 offset-s2 btn waves-effect waves-light green" href='reg.html'>Sign Up</a>
+                    <button type='submit' name='action' value='signup' class="col s8 offset-s2 btn waves-effect waves-light green" >Register</button>
                 </div>
             </form>
         </div>
