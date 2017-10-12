@@ -5,8 +5,8 @@
     z-index: 10;
 }
 
-.sidemenu{
-    color:white !important;
+.side-nav{
+    background-color:rgba(0, 0, 0, 0.6);
     opacity: 1.0;
 }
 
@@ -20,8 +20,8 @@ input{
 }
 
 .landing{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
