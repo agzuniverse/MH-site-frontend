@@ -1,7 +1,6 @@
 //Place all JS code inside this
 $(document).ready(function(){
 
-
     //Used for responsive navbar
     $('.button-collapse').sideNav({
         menuWidth: 200,
@@ -36,5 +35,13 @@ $(document).ready(function(){
             Materialize.toast('You have not filled in all the details correctly!',3000,'rounded');
         }
     });
+
+    //Initialize carousel in gallery page
+    $('.carousel').carousel({fullWidth:true});
+
+    //Carousel slideshow
+    //setInterval(function(){
+    //    $('.carousel').carousel('next');
+    //},3000);
 
 });

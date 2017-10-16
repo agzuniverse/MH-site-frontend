@@ -10,9 +10,20 @@
     opacity: 1.0;
 }
 
+html{
+    min-height: 100%;
+}
+
 body{
-    background:radial-gradient(transparent,black), url('../assets/mh-dark.jpg') no-repeat center center fixed;
+    background:radial-gradient(transparent,black), url('../assets/mh-dark.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    min-height: 100%;
 }
 
 input{
@@ -20,8 +31,8 @@ input{
 }
 
 .landing{
-    height: 100%;
     width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,12 +44,6 @@ input{
     font-size: 25px;
     color: lightgrey;
 }
-
-.land_text {
-    margin-bottom: 380px;
-    font-family: Verdana, Geneva, sans-serif;
-}
-
 
 /*Making things responsive*/
 
@@ -58,5 +63,10 @@ input{
     .landing_content{
         line-height: 27px;
         font-size: 21px;
+    }
+
+    .small-margin{
+        margin-left: 5vw !important;
+        width: 90% !important;
     }
 }
