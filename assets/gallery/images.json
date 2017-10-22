@@ -1,0 +1,20 @@
+{
+    "album1":
+    {
+        "thumb":"/album1/thumb.jpg",
+        "1":"/album1/mh.jpg",
+        "2":"/album1/mh2.jpg"
+    },
+    "album2":
+    {
+        "thumb":"/album2/thumb.jpg",
+        "1":"/album2/college.jpg",
+        "2":"/album2/college2.jpg"
+    },
+    "album3":
+    {
+        "thumb":"/album3/thumb.jpeg",
+        "1":"/album3/model.jpeg",
+        "2":"/album3/model2.jpeg"
+    }
+}
