@@ -45,6 +45,13 @@ input{
     color: lightgrey;
 }
 
+#contnt {
+	margin-top: 20px;
+	margin-right: 100px;
+	margin-left: 100px;
+	background-color:rgba(105,105,105, 0.9)
+}
+
 /*Making things responsive*/
 
 .mobile{
