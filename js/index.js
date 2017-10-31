@@ -36,9 +36,6 @@ $(document).ready(function(){
         }
     });
 
-    //Initialize carousel in gallery page
-    $('.carousel').carousel({fullWidth:true});
-
     //Carousel slideshow
     //setInterval(function(){
     //    $('.carousel').carousel('next');
