@@ -47,9 +47,11 @@ input{
 
 #contnt {
 	margin-top: 20px;
-	margin-right: 100px;
-	margin-left: 100px;
-	background-color:rgba(105,105,105, 0.9)
+	margin-right: 10%;
+	margin-left: 10%;
+	background-color:rgba(0, 0, 0, 0.6);
+    padding: 10px 10px 1px;
+    
 }
 
 /*Making things responsive*/
