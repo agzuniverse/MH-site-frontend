@@ -1,0 +1,42 @@
+.navbar{
+    position: fixed;
+    top: 0vh;
+    width: 100vw;
+    z-index: 10;
+}
+
+.side-nav{
+    background-color:rgba(255, 255, 255);
+    opacity: 1.0;
+}
+
+nav {
+	background-color: black;
+}
+
+ul li a {
+	background-color:rgba(255, 255, 255, .9);
+}
+
+#pro-details {
+	margin: 5% 5%;
+}
+
+img {
+	max-width: 50px;
+}
+
+/*Making things responsive*/
+
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width:768px){
+    .web{
+        display: none;
+    }
+
+    .mobile{
+        display:block;
+    }
