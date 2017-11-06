@@ -50,8 +50,15 @@ input{
 	margin-right: 10%;
 	margin-left: 10%;
 	background-color:rgba(0, 0, 0, 0.6);
-    padding: 10px 10px 1px;
-    
+  padding: 10px 10px 1px;    
+}
+
+#forcontact {    
+    margin-top: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color:rgba(0, 0, 0, 0.6);
+    padding: 5px 10px 1px;
 }
 
 a {
