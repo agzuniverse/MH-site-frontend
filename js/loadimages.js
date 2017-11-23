@@ -4,7 +4,7 @@ $(document).ready(function(){
     for(let album in data){
         for(let image in data[album]){
             if(image=='thumb'){
-                let s="<div class='col s6 m3 l3'><div id='"+album+"'class='card waves-effect waves-light'><div class='card-image'><img src='../assets/gallery"+data[album][image]+"'><span class='card-title'>MH-site</span></div></div></div>";
+                let s="<div class='col s6 m3 l3'><div id='"+album+"'class='card waves-effect waves-light'><div class='card-image'><img src='"+absolute_path+"assets/gallery"+data[album][image]+"'><span class='card-title'>MH-site</span></div></div></div>";
                 $('#thumbs').append(s);
             }
         }
@@ -14,7 +14,7 @@ $(document).ready(function(){
     let s="<div class='carousel carousel-slider' data-indicators='true'>";
     for(let image in data[Object.keys(data)[0]]){
         if(image!='thumb'){
-            s=s+"<div class='carousel-item'><img src='../assets/gallery"+data[Object.keys(data)[0]][image]+"'></div>";
+            s=s+"<div class='carousel-item'><img src='"+absolute_path+"assets/gallery"+data[Object.keys(data)[0]][image]+"'></div>";
         }
     }
     s=s+"</div>";
@@ -27,7 +27,7 @@ $(document).ready(function(){
         let s="<div class='carousel carousel-slider' data-indicators='true'>";
         for(let image in data[album]){
             if(image!='thumb'){
-                s=s+"<div class='carousel-item'><img src='../assets/gallery"+data[album][image]+"'></div>";
+                s=s+"<div class='carousel-item'><img src='"+absolute_path+"assets/gallery"+data[album][image]+"'></div>";
             }
         }
         s=s+"</div>";
