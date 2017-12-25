@@ -10,7 +10,7 @@
     <title>MEC MH</title>
     <script type="text/javascript">
         let absolute_path='/home/aswing/MH-site-frontend/';
-        let data={
+        /*let data={
             "album1":
             {
                 "thumb":"/album1/thumb.jpg",
@@ -29,7 +29,7 @@
                 "1":"/album3/model.jpeg",
                 "2":"/album3/model2.jpeg"
             }
-        }
+        }*/
     </script>
   </head>
 
@@ -62,20 +62,28 @@
             <li><a class='btn waves-effect waves-light green' href="login.html">Login/Signup</a></li>
         </ul>        
     </div>
+
     <div class='container carousel-container'>
-    <div class="carousel carousel-slider" data-indicators='true'>
-            <div class="carousel-item"><img src=""+absolute_path+"assets/mh-dark.jpg"></div>
-            <div class="carousel-item"><img src=""+absolute_path+"assets/mh-dark.jpg"></div>
-            <div class="carousel-item"><img src=""+absolute_path+"assets/mh-dark.jpg"></div>
-            <div class="carousel-item"><img src=""+absolute_path+"assets/mh-dark.jpg"></div>
-            <div class="carousel-item"><img src=""+absolute_path+"assets/mh-dark.jpg"></div>
-    </div>
+        <div class="carousel carousel-slider" data-indicators='true'>
+                <div class="carousel-item"><img src="/home/aswing/MH-site-frontend/assets/gallery/album1/mh.jpg"></div>
+                <div class="carousel-item"><img src="/home/aswing/MH-site-frontend/assets/gallery/album1/mh2.jpg"></div>
+        </div>
+        <!--<div class="carousel carousel-slider" data-indicators='true'>
+            <div class="carousel-item"><img src="/home/aswing/MH-site-frontend/assets/gallery/album2/college.jpg"></div>
+            <div class="carousel-item"><img src="/home/aswing/MH-site-frontend/assets/gallery/album2/college2.jpg"></div>
+        </div>
+        <div class="carousel carousel-slider" data-indicators='true'>
+            <div class="carousel-item"><img src="/home/aswing/MH-site-frontend/assets/gallery/album1/model.jpg"></div>
+            <div class="carousel-item"><img src="/home/aswing/MH-site-frontend/assets/gallery/album1/model2.jpg"></div>
+        </div>-->
     </div>
 
     <br/><br/>
     <div class='container' style='width:90% !important;'>
         <div id='thumbs' class='row'>
-            
+            <div class='col s6 m3 l3'><div class='card waves-effect waves-light'><div class='card-image'><img src="/home/aswing/MH-site-frontend/assets/gallery/album1/thumb.jpg"><span class='card-title'>MH-site</span></div></div></div>
+            <div class='col s6 m3 l3'><div class='card waves-effect waves-light'><div class='card-image'><img src="/home/aswing/MH-site-frontend/assets/gallery/album2/thumb.jpg"><span class='card-title'>MH-site</span></div></div></div>
+            <div class='col s6 m3 l3'><div class='card waves-effect waves-light'><div class='card-image'><img src="/home/aswing/MH-site-frontend/assets/gallery/album3/thumb.jpeg"><span class='card-title'>MH-site</span></div></div></div>
         </div>
     </div>
 

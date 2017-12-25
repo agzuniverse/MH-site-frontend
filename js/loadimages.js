@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+/*
     //Load the thumbnails
     for(let album in data){
         for(let image in data[album]){
@@ -19,8 +19,9 @@ $(document).ready(function(){
     }
     s=s+"</div>";
     $('.carousel-container').html(s);
+    */
     $('.carousel').carousel({fullWidth:true});
-
+/*
     //Clicking on thumbnail changes carousel content to that album
     $('#thumbs').on('click','.card',function(){
         let album=$(this).attr('id');
@@ -35,4 +36,5 @@ $(document).ready(function(){
         $('.carousel').carousel({fullWidth:true});
 
     });
+    */
 });
